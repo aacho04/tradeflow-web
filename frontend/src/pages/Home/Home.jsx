@@ -1,6 +1,15 @@
 import react from 'react';
+import Pricing from '../Pricing/Pricing';
 function Home(){
-    return(<h1>Home</h1>);
+    return(
+        <>
+        <Hero/>
+        <Awards/>
+        <Stats/>
+        <Pricing/>
+        <Education/>
+        </>
+    );
 
 }
 export default Home;
