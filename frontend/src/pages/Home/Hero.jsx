@@ -1,6 +1,7 @@
 import react from 'react';
 function Hero(){
-    return(<h1>Hero<i class="fa fa-user-circle-o" aria-hidden="true"></i>
+    return(<h1>Hero
+        
 </h1>);
 
 }
