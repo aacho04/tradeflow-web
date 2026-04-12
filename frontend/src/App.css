@@ -182,3 +182,19 @@
     border-right-color: var(--border);
   }
 }
+
+
+ul li {
+ 
+  max-width: 100%;
+  text-align: justify;
+  margin-bottom: 13px;
+  font-size: 17px;
+}
+
+.col-6 ul li {
+  word-break: keep-all;   /* cleaner wrapping */
+} 
+
+
+
