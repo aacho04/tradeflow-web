@@ -3,7 +3,7 @@ import OpenAccount from "../../components/OpenAccount/OpenAccount";
 import Hero from "./Hero";
 import Awards from "./Awards";
 import Stats from "./Stats";
-import Pricing from "../Pricing/Pricing";
+import Pricing from "./Pricing";
 import Education from "./Education";
 import Footer from "../../components/Footer/Footer";
 import Navbar from "../../components/Navbar/Navbar";    
