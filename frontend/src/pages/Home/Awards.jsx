@@ -14,15 +14,15 @@ function Awards(){
                     
                     <div className="col-6 col-md-6 text-muted">
                     <ul >
-                    <li>Futures and Options</li>
-                    <li>Commodity derivatives</li>
-                    <li>Currency derivatives</li>
+                    <li style={{textAlign:'left'}}>Futures and Options</li>
+                    <li style={{textAlign:'left'}}>Commodity derivatives</li>
+                    <li style={{textAlign:'left'}}>Currency derivatives</li>
                     </ul>
                     </div>
                     <div className="col-6 col-md-6 text-muted">
                     <ul>
-                    <li>Stocks & IPOs    </li>
-                    <li>Direct mutual funds</li>
+                    <li style={{textAlign:'left'}}>Stocks & IPOs    </li>
+                    <li style={{textAlign:'left'}}>Direct mutual funds</li>
                     <li style={{ textAlign: "left" }}>Bonds and Govt. securities</li>
                     </ul>
                     </div>
