@@ -1,7 +1,7 @@
 import react from 'react';
 function Pricing(){
     return(
-    <div className="container">
+    <div className="container mt-5">
         <div className="row">
             <div className="col-4 ms-4">
                 <h1 className='fs-4 text-muted .custom-headng'>Unbeatable pricing</h1>
@@ -11,16 +11,16 @@ function Pricing(){
             {/* space */}
             <div className="col-1"></div>
             <div className="col-2 text-muted fs-6 d-flex align-items-center me-4">
-                <img src="../media/pricing-eq.svg" alt="" className='img-fluid' style={{width:'50%'}}/>
-                <p  style={{fontSize:'12px',maxWidth: "150px"}} className='me-0 mt-5 ms-0'>Free account opening</p>
+                <img src="../media/pricing-eq.svg" alt="" className='img-fluid' style={{width: '100px', height: 'auto' }}/>
+                <p  style={{fontSize:'12px',maxWidth: "150px",marginLeft: '-20px'}} className=' mt-4'>Free account opening</p>
             </div>
             <div className="col-2 text-muted d-flex align-items-center me-4">
-                <img src="../media/pricing-eq.svg" alt="" className='img-fluid' style={{width:'50%'}}/>
-                <p style={{fontSize:'12px',maxWidth: "150px"}} className='mt-5 pt-4 ' >Free equity delivery and direct mutual funds</p>
+                <img src="../media/pricing-eq.svg" alt="" className='img-fluid' style={{width: '100px', height: 'auto' }}/>
+                <p style={{fontSize:'12px',maxWidth: "120px",marginLeft: '-20px'}} className=' pt-4 ps-1 mt-3' >Free equity delivery and direct mutual funds</p>
             </div>
             <div className="col-2 text-muted d-flex align-items-center me-4">
                 <img src="../media/other-trades.svg" alt="" className='img-fluid' style={{width:'50%'}}/>
-                <p style={{fontSize:'12px',maxWidth: "120px"}} className='me-0 mt-5'>Intraday and F&O</p>
+                <p style={{fontSize:'12px',maxWidth: "120px" ,marginLeft: '-10px'}} className='p-1'>Intraday and F&O</p>
             </div>
         </div>
     </div>
